@@ -1,0 +1,25 @@
+<!---<table>
+	<tr>
+		<th>product_name</th>
+	</tr>
+
+{% for item in  output %}
+   <tr> 
+        <td>{{ item.pname }}</td>
+   </tr>
+{% endfor %}
+</table>-->
+<html>
+<p>These are all the offers</p>
+
+{% for k in output %}
+<li>{{ k }}</li>
+{% endfor %}
+
+<p>These are all the valid offers for that particular user</p>
+
+{% for k in output1 %}
+<li>{{ k }}</li>
+{% endfor %}
+
+
